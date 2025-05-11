@@ -1,28 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 body{
-    background-color: rgb(100, 90, 90);
+    background-color: rgb(255, 255, 255);
 }
 p {
     font-size: clamp(0.1rem, 2vw, 1.1rem); 
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 /* Inicio= Imagen y Texto */
 .title{
-    font-family: "Great Vibes", cursive;
-    color: white;
-    font-weight: 400;
-    font-style: 10rem;
-    
+  font-family: "Great Vibes", cursive;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  font-style: 10rem;    
 }
 .title-2{
     font-family: "Great Vibes", cursive;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: 400;
     font-style: 10rem;
-    
  }
+ .position-absolute.top-50.start-50.translate-middle.text-center {
+  background-color: rgba(0, 0, 0, 0.5); 
+  color: white; 
+  padding: 20px; 
+  border-radius: 10px; 
+  text-align: center; 
+}
+
+.position-absolute.top-50.start-50.translate-middle.text-center h1 {
+  color: white; 
+}
+
+.position-absolute.top-50.start-50.translate-middle.text-center p {
+  color: white; 
+}
 .sub{
-    color: white;
+    color: rgb(0, 0, 0);
+}
+.subtitulos{
+  color: black;
 }
 /* Finaliza */
 .h1.title-2 {
@@ -36,4 +52,22 @@ p {
 .boton{
     text-align: center;
     margin: 0;
+}
+/* botones */
+.btn.btn-primary.btn-lg.d-block.mx-auto{
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none; 
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.btn.btn-primary.btn-lg.d-block.mx-auto:hover{
+  background-color: #575757; 
+}
+a{
+  text-decoration: none;
 }
