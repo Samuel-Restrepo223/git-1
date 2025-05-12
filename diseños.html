@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,23 +12,61 @@
     <noscript>JavaScript is mandatory</noscript>
     
         <!-- NAV -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.htm">Contacto</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> 
-    
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./contacto.htm">Contacto</a>
+  <li class="nav-item">
+    <a class="nav-link disabled" aria-disabled="true">Diseños</a>
+  </li>
+</ul>
+    <!-- fin de nav -->
+<div>
+  <h1 class="title-2 display-1 p-3">
+    Diseños
+  </h1>
+  <p class="subtitulos h5 p-3">
+    Estos son algunos de nuestros trabajos.
+  </p>
+</div>
+<!-- galeria de img -->
+ 
+<div class="container mt-4">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 mb-4">
+      <video src="./assets/video-gal-1.mp4" class="img-fluid rounded" controls></video>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <video src="./assets/video-gal-2.mp4" class="img-fluid rounded" controls></video>
+    </div>
+    <div class="col-lg-4 col-md-6 mb-4">
+      <video src="./assets/video-gal-3.mp4" class="img-fluid rounded" controls></video>
+    </div>
+
+    <div class="col-lg-3 col-md-6 mb-4">
+      <img src="./assets/gal-1.jpg" alt="Descripción de la imagen 1" class="img-fluid rounded">
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <img src="./assets/apartado.1.jpg" alt="Descripción de la imagen 2" class="img-fluid rounded">
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <img src="./assets/apartado.2.jpg" alt="Descripción de la imagen 3" class="img-fluid rounded">
+    </div>
+    <div class="col-lg-3 col-md-6 mb-4">
+      <img src="./assets/gal-1.jpg" alt="Descripción de la imagen 4" class="img-fluid rounded">
+    </div>
+  </div>
+</div>
+<!-- se acaba la galeria -->
+<footer class="piepag">
+    <p class="text-center">
+      © 2025. Todos los derechos reservados.
+    </p>
+  </footer>
+
+
  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
 <script src="./js/script.js"></script> 
 </body>
